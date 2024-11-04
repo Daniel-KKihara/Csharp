@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
+//dotnet new console -o
 Console.WriteLine("\nExemplos de operadores logicos\n");
 //AND(E) Logico: Retorna o valor verdadeiro somente se os dois forem verdadeiros.
 bool a = true;
