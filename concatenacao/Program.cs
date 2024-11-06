@@ -13,8 +13,14 @@ Console.WriteLine("Tipo de variavel: " + n1.GetType());
 Console.WriteLine("Tipo de variavel: " + nome1.GetType());
 //typeof(): identifica tipo de uma classe ou estrutura.
 Console.WriteLine(typeof(int));
-//Conversao = Metodo parse
+//Conversao = Metodo parse.
 string valorTexto = "100";
 Console.WriteLine("A variavel valorTexto e do tipo: " + valorTexto.GetType());
 int n2 = int.Parse(valorTexto);
-Console.WriteLine("A variavel n2 ("+ n2 + ") e do tipo: " + n2.GetType());
+Console.WriteLine("A variavel n2 ("+ n2 +") e do tipo: " + n2.GetType());
+//Conversao = Metodo Convert.
+string valText = "100";
+Console.WriteLine("A variavel valText e do tipo: " + valText.GetType());
+int valConvertInt = Convert.ToInt32(valText);
+Console.WriteLine("A variavel valConvertInt, converte o valor ("+valConvertInt
+                    +") de valText (string) em: " + valConvertInt.GetType());
