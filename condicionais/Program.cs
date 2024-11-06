@@ -6,5 +6,5 @@ double media = (n1+n2+n3)/3;
 if(media >= 7){
     Console.WriteLine($"\nMedia {media:F1}: Aprovado");
 } else {
-    Console.WriteLine($"\nMedia {media:F1}: Reprovado");
+    Console.WriteLine($"\nMedia {media:F1}: Recuperacao");
 }
