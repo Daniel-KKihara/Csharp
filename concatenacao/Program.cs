@@ -21,6 +21,24 @@ Console.WriteLine("A variavel n2 ("+ n2 +") e do tipo: " + n2.GetType());
 //Conversao = Metodo Convert.
 string valText = "100";
 Console.WriteLine("A variavel valText e do tipo: " + valText.GetType());
+
 int valConvertInt = Convert.ToInt32(valText);
 Console.WriteLine("A variavel valConvertInt, converte o valor ("+valConvertInt
-                    +") de valText (string) em: " + valConvertInt.GetType());
++") de valText (string) em: " + valConvertInt.GetType());
+/*Metodo ToString = qualquer tipo de dado (primitivo ou 
+nao primitivo), pode ser convertido*/
+int n3 = 12345;
+Console.WriteLine(n3.GetType());
+
+string n3conv = n3.ToString();
+Console.WriteLine("Valor convertido: " + n3conv + "\nDo tipo: " 
++ n3conv.GetType());
+//Datetime
+DateTime data = Datetime.Now;
+Console.WriteLine(data);
+
+string dataformat = data.ToString("HH:mm:ss");
+Console.WriteLine(dataformat);
+
+string dataformat2 = data.ToString("HH:mm:ss");
+Console.WriteLine(dataformat2);
