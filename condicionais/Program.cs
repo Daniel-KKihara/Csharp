@@ -21,3 +21,36 @@ if(media2 >= 7){
 } else {
     Console.WriteLine($"Media {media2:F1}: Reprovado");
 }
+Console.WriteLine("Digite um vogal: ");
+string letra = Console.ReadLine();
+if(letra =="a" || letra == "A"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="b" || letra == "B"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="c" || letra == "C"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="d" || letra == "D"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="e" || letra == "E"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="f" || letra == "F"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="g" || letra == "G"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="h" || letra == "H"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="i" || letra == "I"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="j" || letra == "J"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="k" || letra == "K"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="l" || letra == "L"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="m" || letra == "M"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="n" || letra == "N"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else {
+    Console.WriteLine($"Voce digitou: {letra} que nao e uma vogal")
+}
