@@ -34,11 +34,21 @@ string n3conv = n3.ToString();
 Console.WriteLine("Valor convertido: " + n3conv + "\nDo tipo: " 
 + n3conv.GetType());
 //Datetime
-DateTime data = Datetime.Now;
+/*DateTime data = Datetime.Now;
 Console.WriteLine(data);
 
 string dataformat = data.ToString("dd:MM:yyy");
 Console.WriteLine(dataformat);
 
 string dataformat2 = data.ToString("HH:mm:ss");
-Console.WriteLine(dataformat2);
+Console.WriteLine(dataformat2);*/
+//ToString format double
+double prc = 29.99;
+Console.WriteLine($"O preco e: {prc.ToString("C2")}");
+//loc moeda corrente
+decimal valor1 = 1234.56m;
+string valorUS = valor1.ToString('C', new System.Globalization.CultureInfo("en-US"));
+Console.WriteLine(valorUS);
+
+string valorBR = valor1.ToString("C", new System.Globalization.CultureInfo("pt-BR"));
+Console.WriteLine(valorUS);
