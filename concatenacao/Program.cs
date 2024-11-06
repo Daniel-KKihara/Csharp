@@ -37,7 +37,7 @@ Console.WriteLine("Valor convertido: " + n3conv + "\nDo tipo: "
 DateTime data = Datetime.Now;
 Console.WriteLine(data);
 
-string dataformat = data.ToString("HH:mm:ss");
+string dataformat = data.ToString("dd:MM:yyy");
 Console.WriteLine(dataformat);
 
 string dataformat2 = data.ToString("HH:mm:ss");
