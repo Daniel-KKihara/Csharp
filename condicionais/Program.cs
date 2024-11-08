@@ -58,6 +58,7 @@ if(letra =="a" || letra == "A"){
 }
 */
 //Exemplo Switch Case
+/*
 string dia = "Sabado";
 
 switch(dia)
@@ -72,3 +73,8 @@ switch(dia)
         Console.WriteLine("Hoje e dia de semana, para de preguica, levanta e vai trabalhar");
         break;
 }
+*/
+//operador ternario
+int idade = 18;
+string mensagem = idade >= 18 ? "Maior de idade" : "Menor de idade";
+Console.WriteLine(mensagem);
