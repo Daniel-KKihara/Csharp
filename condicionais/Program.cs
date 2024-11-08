@@ -9,7 +9,7 @@ if(media >= 7){
 } else {
     Console.WriteLine($"\nMedia {media:F1}: Recuperacao");
 } */
-
+/*
 double n4 = 5.5;
 double n5 = 8.0;
 double n6 = 6.9;
@@ -51,6 +51,24 @@ if(letra =="a" || letra == "A"){
     Console.WriteLine($"Voce digitou a vogal: {letra}");
 } else if(letra =="n" || letra == "N"){
     Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="o" || letra == "O"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
 } else {
     Console.WriteLine($"Voce digitou: {letra} que nao e uma vogal")
+}
+*/
+//Exemplo Switch Case
+string dia = "Sabado";
+
+switch(dia)
+{
+    case "Sabado":
+        Console.WriteLine("Sabadoooo!");
+        break;
+    case "Domingo":
+        Console.WriteLine("Domingao, hoje e dia de ver o malvadao!");
+        break;
+    default:
+        Console.WriteLine("Hoje e dia de semana, para de preguica, levanta e vai trabalhar");
+        break;
 }
