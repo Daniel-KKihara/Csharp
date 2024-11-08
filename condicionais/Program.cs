@@ -75,6 +75,35 @@ switch(dia)
 }
 */
 //operador ternario
-int idade = 18;
-string mensagem = idade >= 18 ? "Maior de idade" : "Menor de idade";
-Console.WriteLine(mensagem);
+
+//int idade = 18;
+//string mensagem = idade >= 18 ? "Maior de idade" : "Menor de idade";
+//Console.WriteLine(mensagem);
+
+
+//ex01 / readline espera uma string
+/*
+Console.Write("Informe a idade para acesso: ");
+double id1 = Console.Read();
+
+Console.Write("\nSe menor, possui autorizacao do responsavel? [s/n]: ");
+string? aut = Console.ReadLine();
+
+bool midad = id1 <= 18 ? true : false;
+
+if (midad || aut == "s"){
+    Console.WriteLine("\nEntrada autorizada");
+} else {
+    Console.WriteLine("\nEntrada nao autorizada");
+}
+Console.WriteLine(id1);
+*/
+//ex01 corrigido
+bool maioridade = true;
+bool posaut = false;
+
+if(maioridade || posaut){
+    Console.WriteLine("Entrada Liberada");
+} else {
+    Console.WriteLine("Entrada nao liberada");
+}
