@@ -110,6 +110,7 @@ if(maioridade || posaut){
 }
 */
 //ex02
+/*
 bool pres = true;
 double media = 6.9;
 string resultado = pres && media >=7 ? "Aprovado" : "Reprovado";
@@ -122,4 +123,16 @@ if (possuipresencaminima && media3 >= 7){
     Console.WriteLine($"Media {media3}: Aprovado");
 } else {
     Console.WriteLine($"Media {media3}: Reprovado");
+}
+*/
+// ex03
+bool chuva = false;
+bool tarde = false;
+
+if(!chuva && !tarde){
+    Console.WriteLine("Nao choveu e nao esta tarde, logo vou pedalar!");
+} else if(!chuva && tarde){
+    Console.WriteLine("Nao choveu, porem esta tarde para pedalar.");
+} else {
+    Console.WriteLine("Nao irei pedalar pois choveu.");
 }
