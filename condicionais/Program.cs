@@ -99,6 +99,7 @@ if (midad || aut == "s"){
 Console.WriteLine(id1);
 */
 //ex01 corrigido
+/*
 bool maioridade = true;
 bool posaut = false;
 
@@ -106,4 +107,19 @@ if(maioridade || posaut){
     Console.WriteLine("Entrada Liberada");
 } else {
     Console.WriteLine("Entrada nao liberada");
+}
+*/
+//ex02
+bool pres = true;
+double media = 6.9;
+string resultado = pres && media >=7 ? "Aprovado" : "Reprovado";
+Console.WriteLine($"{resultado} com media {media}");
+
+bool possuipresencaminima = true;
+double media3 = 7.0;
+
+if (possuipresencaminima && media3 >= 7){
+    Console.WriteLine($"Media {media3}: Aprovado");
+} else {
+    Console.WriteLine($"Media {media3}: Reprovado");
 }
