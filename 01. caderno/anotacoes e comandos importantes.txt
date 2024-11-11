@@ -33,5 +33,9 @@ break;
 
 do
 {
-
+	acao
 } while(condicao)
+
+for(inicializacao; condicao; incremento){
+	acao
+}
