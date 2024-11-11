@@ -1,4 +1,7 @@
 dotnet new console -0 // *("colocar nome")
+dotnet run
+ctrl + L = clean terminal
+ctrl + c = parar execucao
 git bash = code .
 
 Console.Write();
@@ -27,3 +30,8 @@ while(condicao){
 }
 
 break;
+
+do
+{
+
+} while(condicao)
