@@ -1,0 +1,14 @@
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\obj\Debug\net7.0\EstrtdeRepet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\obj\Debug\net7.0\EstrtdeRepet.AssemblyInfoInputs.cache
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\obj\Debug\net7.0\EstrtdeRepet.AssemblyInfo.cs
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\obj\Debug\net7.0\EstrtdeRepet.csproj.CoreCompileInputs.cache
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\bin\Debug\net7.0\EstrtdeRepet.exe
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\bin\Debug\net7.0\EstrtdeRepet.deps.json
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\bin\Debug\net7.0\EstrtdeRepet.runtimeconfig.json
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\bin\Debug\net7.0\EstrtdeRepet.dll
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\bin\Debug\net7.0\EstrtdeRepet.pdb
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\obj\Debug\net7.0\EstrtdeRepet.dll
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\obj\Debug\net7.0\refint\EstrtdeRepet.dll
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\obj\Debug\net7.0\EstrtdeRepet.pdb
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\obj\Debug\net7.0\EstrtdeRepet.genruntimeconfig.cache
+C:\Users\SENAC\Documents\GitHub\Csharp\EstrtdeRepet\obj\Debug\net7.0\ref\EstrtdeRepet.dll
