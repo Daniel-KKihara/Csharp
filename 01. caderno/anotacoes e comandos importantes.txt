@@ -4,9 +4,10 @@ git bash = code .
 Console.Write();
 Console.WriteLine();
 
+
+//Cria o objeto random e armazena em uma variavel int
 Random numeroAleat = new Random();
 int numalv = numeroAleat.Next(1, 101);
-//Cria o objeto random e armazena em uma variavel int
 
 (para maiusculas e minusculas juntamente de como declarar
 variavel)
@@ -15,6 +16,8 @@ string armazenV = variavelstring.ToUpper();
 
 if(condicao){
 	acao
+} else if(condicao2){
+	acao condicao2
 } else {
 	acao false
 }
