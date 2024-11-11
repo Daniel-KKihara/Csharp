@@ -1,4 +1,6 @@
 dotnet new console -0 // *("colocar nome")
+Console.Write();
 Console.WriteLine();
 string armazenV = variavelstring.ToLower();
 string armazenV = variavelstring.ToUpper();
+break;

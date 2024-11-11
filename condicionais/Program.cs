@@ -79,6 +79,89 @@ if(letra =="a" || letra == "A"){
 */
 //Exemplo Switch Case
 /*
+string vogal = "a";
+string vogalLow = vogal.ToLower();
+switch(vogal)
+
+{
+    case "a":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "b":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "c":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "d":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "e":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "f":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "g":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "h":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "i":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "j":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "k":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "l":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "m":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "n":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "o":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "p":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "q":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "u":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "r":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "s":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "t":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "w":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "x":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "y":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+    case "z":
+        Console.WriteLine($"E a vogal: {vogal}");
+        break;
+}
+*/
+/*
 string dia = "Sabado";
 
 switch(dia)
