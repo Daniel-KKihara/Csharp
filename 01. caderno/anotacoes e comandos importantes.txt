@@ -2,6 +2,7 @@ dotnet new console -0 // *("colocar nome")
 dotnet run
 ctrl + L = clean terminal
 ctrl + c = parar execucao
+ctrl + ? = converter para comentario//code
 git bash = code .
 
 Console.Write();
@@ -38,4 +39,8 @@ do
 
 for(inicializacao; condicao; incremento){
 	acao
+}
+
+foreach(){
+
 }

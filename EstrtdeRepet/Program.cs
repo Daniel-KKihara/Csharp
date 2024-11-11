@@ -132,4 +132,3 @@ do {
         Console.WriteLine($"O numero que precisa adivinhar e menor que isso\n");
     }
 } while(true);
-    
