@@ -63,7 +63,7 @@ for(int i = 10; i > 0; i--){
 
 //ex03
 
-Console.WriteLine("Informe uma palavra para a contagem de vogais: ");
+Console.Write("\nInforme uma palavra para a contagem de vogais: ");
 string palavracont = Console.ReadLine();
 
 int conta = 0;
@@ -103,7 +103,7 @@ Console.WriteLine($"\nO total de vogais na palavra informado foram: {totVogais}"
 
 //ex04
 
-Console.WriteLine("Informe uma palavra: ");
+Console.Write("\nInforme uma palavra: ");
 string? mensagem = Console.ReadLine();
 string palindr = "";
 for(int i=0; i < mensagem.Length; i++){
@@ -118,7 +118,7 @@ if(palindr == mensagem){
 //ex05
 
 Random numrand = new Random();
-int rangerand = numrand.Next(1, 5);
+int rangerand = numrand.Next(1, 101);
 do {
     Console.Write("\nAdivinhe o numero de 1 a 100: ");
     string adivi = Console.ReadLine();
@@ -132,3 +132,4 @@ do {
         Console.WriteLine($"O numero que precisa adivinhar e menor que isso\n");
     }
 } while(true);
+    
