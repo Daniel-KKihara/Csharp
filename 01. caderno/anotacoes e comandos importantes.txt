@@ -1,6 +1,26 @@
 dotnet new console -0 // *("colocar nome")
+git bash = code .
+
 Console.Write();
 Console.WriteLine();
+
+Random numeroAleat = new Random();
+int numalv = numeroAleat.Next(1, 101);
+//Cria o objeto random e armazena em uma variavel int
+
+(para maiusculas e minusculas juntamente de como declarar
+variavel)
 string armazenV = variavelstring.ToLower();
 string armazenV = variavelstring.ToUpper();
+
+if(condicao){
+	acao
+} else {
+	acao false
+}
+
+while(condicao){
+	acao
+}
+
 break;
