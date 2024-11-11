@@ -53,6 +53,26 @@ if(letra =="a" || letra == "A"){
     Console.WriteLine($"Voce digitou a vogal: {letra}");
 } else if(letra =="o" || letra == "O"){
     Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="p" || letra == "P"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="q" || letra == "Q"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="u" || letra == "U"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="r" || letra == "R"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="s" || letra == "S"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="t" || letra == "T"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="w" || letra == "W"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="x" || letra == "X"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="y" || letra == "Y"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
+} else if(letra =="z" || letra == "Z"){
+    Console.WriteLine($"Voce digitou a vogal: {letra}");
 } else {
     Console.WriteLine($"Voce digitou: {letra} que nao e uma vogal")
 }
