@@ -30,7 +30,7 @@ elementos com facilidade. para sua implementacao usamos a classe List<T>*/
 //Criando a lista e adicionando elementos
 List<string> listaNomes = new List<string> {"Wanderson", "Jeane", "Ryan"};
 listaNomes.Add("Maria");
-//Exibindo a lista inicial
+Console.WriteLine("\nExibindo a lista inicial: ");
 for (int i = 0; i < listaNomes.Count; i++){
     if (i == 0){
         Console.Write($"{listaNomes[i]}");
@@ -40,7 +40,7 @@ for (int i = 0; i < listaNomes.Count; i++){
 }
 
 //verificar se um nome esta na lista
-Console.WriteLine("\nVerificacao de existencia do nome 'Ryan':");
+Console.WriteLine("\n\nVerificacao de existencia do nome 'Ryan':");
 string nomeverif = "Ryan";
 if (listaNomes.Contains(nomeverif)){
     Console.WriteLine($"O nome '{nomeverif}' esta na lista.");
@@ -53,7 +53,17 @@ Console.WriteLine($"\nApos remover 'Wanderson':");
 string nomeremove = "Wanderson";
 bool foiremovido = listaNomes.Remove(nomeremove);
 if (foiremovido){
-    Console.WriteLine($"{} foi removido da lista.");
+    Console.WriteLine($"{nomeremove} foi removido da lista.");
 } else {
-    Console.WriteLine($"{} nao foi encontrado na lista.");
+    Console.WriteLine($"{nomeremove} nao foi encontrado na lista.");
+}
+
+//exibindo a lista final apos a remocao
+Console.WriteLine("\nNomes na lista apos a remocao:");
+for (int i = 0; i < listaNomes.Count; i++){
+    if (i == 0){
+        Console.Write($"{listaNomes[i]}");
+    } else {
+        Console.Write($", {listaNomes[i]}");
+    }
 }
