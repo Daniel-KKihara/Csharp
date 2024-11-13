@@ -205,3 +205,4 @@ while(!acertou){
         acertou = true;
     }
 }
+Console.WriteLine("fim");
