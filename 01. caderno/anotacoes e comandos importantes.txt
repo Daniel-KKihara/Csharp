@@ -45,4 +45,4 @@ foreach(){
 
 }
 
-.replace()
+.replace(substituído, substituição)
