@@ -79,75 +79,109 @@ elementos com facilidade. para sua implementacao usamos a classe List<T>*/
 //     Console.WriteLine("");
 // }
 
-//EX1
-using System.Globalization;
+// //EX1
+// using System.Globalization;
 
-Console.WriteLine("\nSomando elementos de um Array: ");
-int[] meuArray = new int[5] {1, 2, 3, 4, 5,};
+// Console.WriteLine("\nSomando elementos de um Array: ");
+// int[] meuArray = new int[5] {1, 2, 3, 4, 5,};
+// int soma = 0;
+
+// Console.Write("Os elementos presentes no array sao: ");
+// foreach (int num in meuArray){
+//     if (num == meuArray[0]){
+//         Console.Write(num);
+//     } else {
+//         Console.Write($", {num}");
+//     }
+//     soma += num;
+// }
+// Console.WriteLine($"\nA soma dos numeros no array = {soma}");
+
+// //EX2
+// Console.WriteLine("\nContando elementos de uma lista: ");
+// List<string> listNomes = new List<string> {"Jeane", "Wanderson", "Jeane", "Ryan", "Jeane"};
+// int cont = 0;
+// foreach (string nome in listNomes){
+//     if (nome.ToLower().Replace(" ", "") == "jeane"){
+//         cont += 1;
+//     }
+// }
+// Console.WriteLine($"A Lista repete o nome Jeane {cont} vezes");
+
+// //EX3
+// Console.WriteLine("\nRemovendo duplicatas de uma list: ");
+
+// List<int> listNum = new List<int> {1, 2, 2, 3, 4, 4, 5};
+// HashSet<int> hashList = new HashSet<int> {};
+
+// foreach (int num in listNum){
+//     hashList.Add(num);
+// }
+// Console.Write("Antes: ");
+// foreach (int n1 in listNum){
+//     Console.Write($"{n1} ");
+// }
+// Console.Write("\nDepois: ");
+// foreach(int n in hashList){
+//     Console.Write($"{n} "); 
+// }
+// Console.WriteLine();
+// //EX4
+// Console.WriteLine("\nFeira da fruta tem banana no estoque? ");
+// HashSet<string> feiradaFruta = new HashSet<string> {"Maca", "Banana", "Laranja"};
+// if(feiradaFruta.Contains("Banana")){
+//     Console.WriteLine("Temos banana no estoque");
+// } else {
+//     Console.WriteLine("Nao temos banana no estoque");
+// }
+// // EX5
+// Console.WriteLine("\nAdicionando elementos a uma list int vazia: ");
+// List<int> numeros = new List<int> {};
+// for (int index = 0; index <= 4; index++){
+//     numeros.Add(index+1);
+//     Console.WriteLine($"Adicionado {index+1}");
+// }
+
+// Console.Write("A Lista com os numeros adicionados ficaram assim: ");
+// foreach (int num in numeros){
+//     if (num == numeros[0]){
+//         Console.Write(num);
+//     } else {
+//         Console.Write($", {num}");
+//     }
+// }
+// Console.WriteLine("\n");
+
+// CORRECAO DAS ATIVIDADES
+
+//ex1
+int[] numeros = {1, 2, 3, 4, 5};
 int soma = 0;
 
-Console.Write("Os elementos presentes no array sao: ");
-foreach (int num in meuArray){
-    if (num == meuArray[0]){
-        Console.Write(num);
-    } else {
-        Console.Write($", {num}");
-    }
-    soma += num;
+foreach (int numero in numeros)
+{
+    soma += numero;
 }
-Console.WriteLine($"\nA soma dos numeros no array = {soma}");
+Console.WriteLine($"A soma dos elementos e {soma}");
+//ex2
+List<string> nomes = new List<string> {"Jeane", "Wanderson", "Jeane", "Ryan", "Jeane"};
+int contador = 0;
 
-//EX2
-Console.WriteLine("\nContando elementos de uma lista: ");
-List<string> listNomes = new List<string> {"Jeane", "Wanderson", "Jeane", "Ryan", "Jeane"};
-int cont = 0;
-foreach (string nome in listNomes){
-    if (nome.ToLower().Replace(" ", "") == "jeane"){
-        cont += 1;
+foreach(string nome in nomes)
+{
+    if (nome == "Jeane")
+    {
+        contador++;
     }
 }
-Console.WriteLine($"A Lista repete o nome Jeane {cont} vezes");
+Console.WriteLine($"Elemento aparece {contador} vezes");
+//ex3
+List<int> listdenum = new List<int> {1, 2, 2, 3, 4, 4, 5};
+HashSet<int> conjunto = new HashSet<int>(listdenum);
 
-//EX3
-Console.WriteLine("\nRemovendo duplicatas de uma list: ");
-
-List<int> listNum = new List<int> {1, 2, 2, 3, 4, 4, 5};
-HashSet<int> hashList = new HashSet<int> {};
-
-foreach (int num in listNum){
-    hashList.Add(num);
+Console.WriteLine("Lista sem duplicatas: ");
+foreach(int numero in conjunto)
+{
+    Console.WriteLine(numero);
 }
-Console.Write("Antes: ");
-foreach (int n1 in listNum){
-    Console.Write($"{n1} ");
-}
-Console.Write("\nDepois: ");
-foreach(int n in hashList){
-    Console.Write($"{n} ");
-}
-Console.WriteLine();
-//EX4
-Console.WriteLine("\nFeira da fruta tem banana no estoque? ");
-HashSet<string> feiradaFruta = new HashSet<string> {"Maca", "Banana", "Laranja"};
-if(feiradaFruta.Contains("Banana")){
-    Console.WriteLine("Temos banana no estoque");
-} else {
-    Console.WriteLine("Nao temos banana no estoque");
-}
-// EX5
-Console.WriteLine("\nAdicionando elementos a uma list int vazia: ");
-List<int> numeros = new List<int> {};
-for (int index = 0; index <= 4; index++){
-    numeros.Add(index+1);
-    Console.WriteLine($"Adicionado {index+1}");
-}
-
-Console.Write("A Lista com os numeros adicionados ficaram assim: ");
-foreach (int num in numeros){
-    if (num == numeros[0]){
-        Console.Write(num);
-    } else {
-        Console.Write($", {num}");
-    }
-}
-Console.WriteLine("\n");
+//ex4

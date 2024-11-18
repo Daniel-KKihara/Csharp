@@ -46,3 +46,6 @@ foreach(){
 }
 
 .replace(substituído, substituição)
+
+hashset e a implementacao dos conjuntos no c#
+remove os repetidos e mantem apenas valores unicos
