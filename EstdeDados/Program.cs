@@ -184,4 +184,3 @@ foreach(int numero in conjunto)
 {
     Console.WriteLine(numero);
 }
-//ex4
